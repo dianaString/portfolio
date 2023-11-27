@@ -5,7 +5,6 @@ import preview_apiBrushes from '../images/preview_apiBrushes.png'
 import preview_wowSearch from '../images/preview_wowSearch.jpg'
 import preview_favSeries from '../images/preview_favSeries.jpg'
 import preview_sportWeb from '../images/preview_sportWeb.jpg'
-import '../styles/App.scss'
 
 
 function App() {
