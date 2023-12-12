@@ -18,7 +18,7 @@ function App() {
                   <img className="header-img" src={avatar} alt="Diana's Avatar" />
                   <h1 className="header-title">Welcome to my Portfolio!</h1>
                   <p className="header-text">I’m Diana, a <span>Spanish FullStack developer</span> who enjoys creating quality products from the <span>inside out</span>.</p>
-                  <a className="header-link" href="https://drive.google.com/file/d/1Grs1_KmyXsCnUy9LGSg1A04bgY6QWOVr/view"
+                  <a className="header-link" href="https://drive.google.com/file/d/19US6P7JsAd83XTSQ70aXEIAJVmfRz-lv/view"
                                  target="_blank" rel="noopener noreferrer">
                                  View Resume
                               </a>
