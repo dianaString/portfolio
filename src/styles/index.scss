@@ -29,6 +29,12 @@ img {
     width: 80%;
     margin-inline: auto;
     place-items: center;
+
+    @media screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4.5rem;
+    }
 }
 
 .header {
@@ -226,6 +232,10 @@ img {
             bottom: -28px;
             left: 0px;
             z-index: 1;
+
+            @media screen and (max-width: 600px) {
+                width: 152px;
+            }
         }
     }
 
@@ -241,6 +251,11 @@ img {
         padding: 3rem;
         padding-bottom: 1.5rem;
         position: relative;
+
+        @media screen and (max-width: 600px) {
+            width: 98dvw;
+            padding: 2.5rem;
+        }
     }
 }
 
@@ -293,6 +308,11 @@ img {
         transition: background-color 0.04s ease-in, 
                     outline 0.05s ease-in,
                     outline-offset 0.05s ease;
+        
+        @media screen and (max-width: 600px) {
+                width: 238px; 
+                margin-inline: auto;
+        }
 
         &:hover {
             background-color: #b2bec293;
@@ -368,6 +388,11 @@ img {
         word-spacing: -.05rem;
         margin-inline: auto;
         line-height: 3.25rem;
+
+        @media screen and (max-width: 600px) {
+            font-size: 18px;
+            width: 300px;
+        }
     }
 
     &-desc {
@@ -377,6 +402,11 @@ img {
         width: 300px;
         margin-inline: auto;
         line-height: 2rem;
+
+        @media screen and (max-width: 600px) {
+            font-size: 14px;
+            width: 300px;
+        }
     }
 
     &-tools {
@@ -387,6 +417,10 @@ img {
         display: flex;
         justify-content: center;
         gap: 3.5rem;
+
+        @media screen and (max-width: 600px) {
+            font-size: 16px;
+        }
     
         & li:not(:last-of-type)::after {
             content: "·";
